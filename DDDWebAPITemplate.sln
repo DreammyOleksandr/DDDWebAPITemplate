@@ -2,6 +2,16 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDWebAPITemplate.WebAPI", "DDDWebAPITemplate.WebAPI\DDDWebAPITemplate.WebAPI.csproj", "{EF3D1A7F-09A2-404B-A48E-11BED784AC58}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDWebAPITemplate.Application", "DDDWebAPITemplate.Application\DDDWebAPITemplate.Application.csproj", "{BFBF03CD-D707-4092-9094-595C55FC7666}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDWebAPITemplate.Domain", "DDDWebAPITemplate.Domain\DDDWebAPITemplate.Domain.csproj", "{998F3B24-5DED-41F5-A6C6-4AC740DB6E45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDWebAPITemplate.Infrastructure", "DDDWebAPITemplate.Infrastructure\DDDWebAPITemplate.Infrastructure.csproj", "{DA5A3204-0542-4C00-A524-2EA65414C8D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDWebAPITemplate.Jobs", "DDDWebAPITemplate.Jobs\DDDWebAPITemplate.Jobs.csproj", "{FA2C2A11-37E3-4AE5-92B4-1C37ED29AEE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDWebAPITemplate.Shared", "DDDWebAPITemplate.Shared\DDDWebAPITemplate.Shared.csproj", "{C6D0B588-274A-411A-8FC5-449955B921B4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +22,25 @@ Global
 		{EF3D1A7F-09A2-404B-A48E-11BED784AC58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF3D1A7F-09A2-404B-A48E-11BED784AC58}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF3D1A7F-09A2-404B-A48E-11BED784AC58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFBF03CD-D707-4092-9094-595C55FC7666}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFBF03CD-D707-4092-9094-595C55FC7666}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFBF03CD-D707-4092-9094-595C55FC7666}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFBF03CD-D707-4092-9094-595C55FC7666}.Release|Any CPU.Build.0 = Release|Any CPU
+		{998F3B24-5DED-41F5-A6C6-4AC740DB6E45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{998F3B24-5DED-41F5-A6C6-4AC740DB6E45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{998F3B24-5DED-41F5-A6C6-4AC740DB6E45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{998F3B24-5DED-41F5-A6C6-4AC740DB6E45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA5A3204-0542-4C00-A524-2EA65414C8D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA5A3204-0542-4C00-A524-2EA65414C8D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA5A3204-0542-4C00-A524-2EA65414C8D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA5A3204-0542-4C00-A524-2EA65414C8D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA2C2A11-37E3-4AE5-92B4-1C37ED29AEE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA2C2A11-37E3-4AE5-92B4-1C37ED29AEE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA2C2A11-37E3-4AE5-92B4-1C37ED29AEE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA2C2A11-37E3-4AE5-92B4-1C37ED29AEE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6D0B588-274A-411A-8FC5-449955B921B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6D0B588-274A-411A-8FC5-449955B921B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6D0B588-274A-411A-8FC5-449955B921B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6D0B588-274A-411A-8FC5-449955B921B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
