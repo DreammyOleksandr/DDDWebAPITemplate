@@ -7,6 +7,7 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <Folder Include="Database\Initializer\" />
       <Folder Include="Database\Repositories\" />
       <Folder Include="Database\UnitOfWork\" />
       <Folder Include="Services\" />
