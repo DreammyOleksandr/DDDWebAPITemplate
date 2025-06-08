@@ -1,4 +1,4 @@
-namespace SRMGritLeader.Configuration;
+namespace DDDWebAPITemplate.WebAPI.Configuration;
 
 public static class AppConfiguration
 {

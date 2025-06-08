@@ -7,10 +7,27 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Database\Initializer\" />
       <Folder Include="Database\Repositories\" />
       <Folder Include="Database\UnitOfWork\" />
       <Folder Include="Services\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.16" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Abstractions" Version="8.0.16" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Analyzers" Version="8.0.16" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.16">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.16">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\DDDWebAPITemplate.Application\DDDWebAPITemplate.Application.csproj" />
     </ItemGroup>
 
 </Project>
