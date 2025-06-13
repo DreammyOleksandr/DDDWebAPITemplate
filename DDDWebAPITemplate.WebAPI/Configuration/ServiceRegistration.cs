@@ -17,8 +17,8 @@ public static class ServiceRegistration
         //     options.UseSQL_PROVIDER(connectionString));
 
         builder.Services.AddControllers();
+        builder.Services.AddOpenApi();
         builder.Services.AddEndpointsApiExplorer();
-        builder.Services.AddSwaggerGen();
         builder.Services.AddScoped<IDbInitializer, DbInitializer>();
     }
 }

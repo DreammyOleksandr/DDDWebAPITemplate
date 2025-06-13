@@ -1,3 +1,5 @@
+using Scalar.AspNetCore;
+
 namespace DDDWebAPITemplate.WebAPI.Configuration;
 
 public static class AppConfiguration
@@ -7,8 +9,13 @@ public static class AppConfiguration
         // Configure the HTTP request pipeline.
         if (app.Environment.IsDevelopment())
         {
-            app.UseSwagger();
-            app.UseSwaggerUI();
+            const string scalarTitle = "DDD WebAPI Template";
+            
+            app.MapOpenApi();
+            app.MapScalarApiReference(options => options
+                .WithTitle(scalarTitle)
+                .WithTheme(ScalarTheme.DeepSpace)
+                .WithDefaultHttpClient(ScalarTarget.Node, ScalarClient.Http));
         }
 
         app.UseHttpsRedirection();
